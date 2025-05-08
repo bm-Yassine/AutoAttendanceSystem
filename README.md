@@ -5,23 +5,23 @@ This project implements an automated attendance tracking system using facial rec
 
 **Features**
 
-Real-time face detection and recognition
-Excel-based attendance sheet generation and updates
-LCD display for visual feedback
-Buzzer for audio confirmation
-Duplicate attendance prevention
-Compatible with both Pi Camera and USB cameras
-Supports headless (console) mode
-Organized data by class name and date
+- Real-time face detection and recognition.
+- Excel-based attendance sheet generation and updates.
+- LCD display for visual feedback.
+- Buzzer for audio confirmation.
+- Duplicate attendance prevention.
+- Compatible with both Pi Camera and USB cameras.
+- Supports headless (console) mode.
+- Organized data by class name and date.
 
 
 **Hardware Requirements**
 
-Raspberry Pi (preferably with Raspbian OS 64-bit)
-Pi Camera or USB webcam
-16x2 LCD display
-Buzzer
-GPIO wires
+- Raspberry Pi (preferably with Raspbian OS 64-bit).
+- Pi Camera or USB webcam.
+- 16x2 LCD display.
+- Buzzer.
+- GPIO wires.
 
 **Software Requirements**
 
