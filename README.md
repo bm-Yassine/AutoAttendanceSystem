@@ -1,9 +1,9 @@
-Facial Recognition Attendance System
+***Facial Recognition Attendance System***
 
 This project implements an automated attendance tracking system using facial recognition on a Raspberry Pi. It combines image processing, face recognition, and Excel integration to streamline and digitize classroom or organizational attendance logging.
 
 
-Features
+**Features**
 
 Real-time face detection and recognition
 Excel-based attendance sheet generation and updates
@@ -15,7 +15,7 @@ Supports headless (console) mode
 Organized data by class name and date
 
 
-Hardware Requirements
+**Hardware Requirements**
 
 Raspberry Pi (preferably with Raspbian OS 64-bit)
 Pi Camera or USB webcam
@@ -23,21 +23,20 @@ Pi Camera or USB webcam
 Buzzer
 GPIO wires
 
-Software Requirements
+**Software Requirements**
 
 Python 3.x and the following Python libraries:
 
-opencv-python
-face_recognition
-xlwt
-xlrd
-xlutils
+- opencv-python
+- face_recognition
+- xlwt
+- xlrd
+- xlutils
 
 To install all dependencies at once:
-pip install -r libraries.txt
+- pip install -r libraries.txt
 
-
-*How to Run*
+**How to Run**
 
 1. Capture Known Faces
 Before running the main script, capture and label known faces using:
